@@ -3,3 +3,7 @@ temp_auto_push.bat
 temp_interactive_push.bat
 config.bat
 node_modules
+# Proteccion de credenciales locales (Metrix Clean 4.0)
+.env
+.env.*
+!.env.example
